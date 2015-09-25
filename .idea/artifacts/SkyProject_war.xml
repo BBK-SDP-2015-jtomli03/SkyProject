@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="SkyProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SkyProject.war">
+      <element id="artifact" artifact-name="SkyProject:war exploded" />
+    </root>
+  </artifact>
+</component>
