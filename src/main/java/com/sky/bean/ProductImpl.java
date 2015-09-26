@@ -7,9 +7,17 @@ import java.util.List;
  */
 public class ProductImpl implements Product {
 
+    String name;
+    Double price;
+
+    public ProductImpl(String name, Double price){
+        this.name = name;
+        this.price = price;
+    }
+
     @Override
     public Double getPrice() {
-        return null;
+        return price;
     }
 
     @Override
@@ -19,7 +27,7 @@ public class ProductImpl implements Product {
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     @Override
